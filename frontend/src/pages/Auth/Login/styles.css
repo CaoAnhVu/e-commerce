@@ -1,0 +1,22 @@
+/* src/pages/Auth/Login/styles.css */
+.auth-container {
+  min-height: calc(100vh - 64px);
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.auth-paper {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  border-radius: 8px;
+}
+
+.social-button {
+  text-transform: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.social-button:hover {
+  background-color: #f8fafc;
+}
