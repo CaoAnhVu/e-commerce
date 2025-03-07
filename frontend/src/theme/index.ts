@@ -3,9 +3,10 @@ import { createTheme } from "@mui/material/styles";
 export const theme = createTheme({
   palette: {
     primary: {
-      main: "#0284c7",
-      light: "#38bdf8",
-      dark: "#0369a1",
+      main: "#1976d2",
+    },
+    secondary: {
+      main: "#dc004e",
     },
   },
   components: {
@@ -13,7 +14,6 @@ export const theme = createTheme({
       styleOverrides: {
         root: {
           textTransform: "none",
-          borderRadius: "0.375rem",
         },
       },
     },
@@ -21,7 +21,7 @@ export const theme = createTheme({
       styleOverrides: {
         root: {
           "& .MuiOutlinedInput-root": {
-            borderRadius: "0.375rem",
+            borderRadius: "8px",
           },
         },
       },
